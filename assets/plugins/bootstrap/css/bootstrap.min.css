@@ -3999,7 +3999,6 @@ fieldset[disabled] .btn-default:hover {
     padding: 9px 15px;
     font-size: 14px;
     line-height: 1.4;
-    border-radius: 0;
     border: 1px solid #ddb95e !important;
     transition-duration: 100ms;
     transition-property: all;
@@ -4016,15 +4015,15 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover {
     color: #fff;
     background-color: #3e7b8d;
-    border-color: #204d74;
+    border-color: #ddb95e;
 }
 
 .btn-primary.active,
 .btn-primary:active,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74
+    background-color: #2E6D80;
+    border-color: #ddb95e
 }
 
 .btn-primary.active.focus,
